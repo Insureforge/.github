@@ -10,10 +10,17 @@ Backend-first .NET insurance integration accelerator for MGAs, with authenticate
 
 ## Repositories
 
+Core repos:
+
 - **DataForge** (`Insureforge/DataForge`): MVP API + React intake UI, local Docker stack (Keycloak + MongoDB + RabbitMQ + Postgres)
-- **FormForge** (`Insureforge/FormForge`): generic carrier form/report template designer + async rendering backend (Clean Architecture)
+- **FormForge** (`Insureforge/FormForge`): template designer + async rendering backend (Clean Architecture)
 - **FormForge Designer UI** (`Insureforge/FormForge.DesignerUi`): React/Vite UI for template drafts, preview, publish, and artifact inspection
 - **Application Tenants** (`Insureforge/Application-Tenants`): `Insureforge.Application.Tenanting` library for environment + tenant dependency resolution (fail-fast validation)
+
+Org utilities:
+
+- **Org defaults** (`Insureforge/.github`): org profile + shared PR/issue templates, workflow templates, CODEOWNERS starter
+- **Sandbox** (`Insureforge/demo-repository`): scratch repo for quick experiments
 
 ## Shared security model
 
