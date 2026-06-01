@@ -70,7 +70,3 @@ Recommended sources:
 - Keep a minimal baseline in every repo: `build` (compile), `test` (unit/integration), and `lint/format` where applicable.
 - Prefer **required status checks** + branch protection on the default branch.
 - Publish artifacts when it helps downstream (e.g., OpenAPI specs, UI bundles, migration scripts).
-
-## Links
-
-- Website: https://www.insureforge.io
