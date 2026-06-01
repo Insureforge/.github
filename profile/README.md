@@ -19,6 +19,15 @@ Backend-first .NET insurance integration accelerator for MGAs, with authenticate
 | `Insureforge/.github` | Org profile + org-wide PR/issue templates + workflow templates | GitHub meta | Active | `profile/README.md`, `.github/ISSUE_TEMPLATE/*`, `.github/PULL_REQUEST_TEMPLATE.md` |
 | `Insureforge/demo-repository` | Scratchpad for experiments and quick proofs-of-concept | Varies | Sandbox | N/A |
 
+CI / pipeline status:
+
+- GitHub Actions badges only render publicly for public repos. Since most of these repos are private, the safest org-profile display is linking to each repo’s Actions page.
+- Actions:
+  - `Insureforge/DataForge/actions`
+  - `Insureforge/FormForge/actions`
+  - `Insureforge/FormForge.DesignerUi/actions`
+  - `Insureforge/Application-Tenants/actions`
+
 ## Shared security model
 
 - OIDC via Keycloak; APIs validate bearer tokens for browser and service clients.
