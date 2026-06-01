@@ -1,0 +1,33 @@
+name: Integration request
+description: Request a new carrier/partner integration or mapping
+labels: ["integration"]
+body:
+  - type: input
+    id: partner
+    attributes:
+      label: Carrier/partner
+      placeholder: "Acme Insurance"
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Lines of business, transaction types (quote/bind/endorse), volumes, timeline.
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Payloads / schemas
+      description: Attach sample payloads, spec docs, or mapping tables (redact PII).
+    validations:
+      required: false
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How do we know it’s done? Include test vectors if possible.
+    validations:
+      required: false
+

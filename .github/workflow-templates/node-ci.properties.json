@@ -1,0 +1,7 @@
+{
+  "name": "Node CI",
+  "description": "Install, test, and build a Node.js repo on PRs and default branch pushes.",
+  "iconName": "nodejs",
+  "categories": ["continuous-integration"]
+}
+

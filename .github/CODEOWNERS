@@ -1,0 +1,8 @@
+# Default owners (update to match the actual team as it grows)
+* @Insureforge/owners
+
+# Examples (uncomment and tune per repo conventions)
+# /src/ @Insureforge/platform
+# /infra/ @Insureforge/platform
+# /docs/ @Insureforge/maintainers
+

@@ -1,0 +1,7 @@
+{
+  "name": "Dotnet CI",
+  "description": "Restore, build, and test a .NET repo on PRs and default branch pushes.",
+  "iconName": "dotnet",
+  "categories": ["continuous-integration"]
+}
+

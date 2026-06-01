@@ -1,0 +1,37 @@
+name: Bug report
+description: Report a bug with clear reproduction steps
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened? What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      description: Provide steps or a minimal repro.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      description: Paste logs (redact secrets) and attach screenshots if helpful.
+    validations:
+      required: false
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS + runtime versions (dotnet/node/docker), browser, etc.
+    validations:
+      required: false
+

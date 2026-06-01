@@ -1,0 +1,41 @@
+name: Onboarding / access request
+description: Request org/repo access and tools onboarding
+labels: ["onboarding"]
+body:
+  - type: input
+    id: github_user
+    attributes:
+      label: GitHub username
+      placeholder: "octocat"
+    validations:
+      required: true
+  - type: dropdown
+    id: access_level
+    attributes:
+      label: Access level needed
+      options:
+        - Read
+        - Triage
+        - Write
+        - Maintain
+        - Admin
+    validations:
+      required: true
+  - type: textarea
+    id: repos
+    attributes:
+      label: Repos needed
+      description: List repos and why.
+      placeholder: |
+        - Insureforge/DataForge (feature work)
+        - Insureforge/FormForge (review)
+    validations:
+      required: true
+  - type: textarea
+    id: tools
+    attributes:
+      label: Tooling
+      description: What do you need set up? (Docker, Keycloak realm, secrets, etc.)
+    validations:
+      required: false
+
