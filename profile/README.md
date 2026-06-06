@@ -86,3 +86,7 @@ Recommended sources:
 - Keep a minimal baseline in every repo: `build` (compile), `test` (unit/integration), and `lint/format` where applicable.
 - Prefer **required status checks** + branch protection on the default branch.
 - Publish artifacts when it helps downstream (e.g., OpenAPI specs, UI bundles, migration scripts).
+
+Internal spec:
+
+- See `.github-private/docs/engineering-dashboard-spec.md` (private) for the Engineering Dashboard product spec (metrics definitions, data sources, and acceptance criteria).
