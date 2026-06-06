@@ -16,7 +16,9 @@ Backend-first .NET insurance integration accelerator for MGAs, with authenticate
 | `Insureforge/FormForge` | Template authoring + rendering backend for forms/reports | .NET (Clean Architecture), async rendering | Active | Solution entrypoint + worker/service README |
 | `Insureforge/FormForge.DesignerUi` | Browser UI for template drafts, preview, publish, and artifact inspection | React/Vite | Active | `npm install`, `npm run dev` |
 | `Insureforge/Application-Tenants` | Shared tenant/environment resolution library (`Insureforge.Application.Tenanting`) | .NET class library | Active | Package/README usage examples |
+| `Insureforge/Insureforge.Infrastructure` | Shared infrastructure building blocks for cross-repo service wiring and platform concerns | .NET class library | Active | Package/README usage examples |
 | `Insureforge/.github` | Org profile + org-wide PR/issue templates + workflow templates | GitHub meta | Active | `profile/README.md`, `.github/ISSUE_TEMPLATE/*`, `.github/PULL_REQUEST_TEMPLATE.md` |
+| `Insureforge/.github-private` | Private org-level defaults and internal GitHub configuration not intended for the public profile repo | GitHub meta | Active | Internal repo docs/templates |
 | `Insureforge/demo-repository` | Scratchpad for experiments and quick proofs-of-concept | Varies | Sandbox | N/A |
 
 CI / pipeline status:
@@ -27,6 +29,7 @@ CI / pipeline status:
   - `Insureforge/FormForge/actions`
   - `Insureforge/FormForge.DesignerUi/actions`
   - `Insureforge/Application-Tenants/actions`
+  - `Insureforge/Insureforge.Infrastructure/actions`
 
 ## Shared security model
 
